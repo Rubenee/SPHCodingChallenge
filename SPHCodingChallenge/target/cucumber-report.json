@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 51931789136,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the SPH website",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_launch_the_SPH_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8970118586,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NavigateToMainArticleSteps.beforeMethod()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Launch the main article",
+        "description": "",
+        "id": "navigate-to-the-main-article-page-on-website;launch-the-main-article",
+        "after": [
+          {
+            "result": {
+              "duration": 1457346064,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NavigateToMainArticleSteps.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125750411,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see the main article displayed on the home page",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_should_see_the_main_article_displayed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8555705179,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the article contains a media",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_should_see_the_article_contains_a_media()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27040724500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the main article",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_click_on_the_main_article()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216956244,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be redirected to the main article page",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_should_be_redirected_to_the_main_article_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273054657,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see the media is displayed for the article on the mainarticle page",
+            "match": {
+              "location": "NavigateToMainArticleSteps.i_should_see_the_media_is_displayed_for_the_article_on_the_mainarticle_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NavigateToMainArticleWebPage"
+          },
+          {
+            "name": "@LaunchArticle"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to the main article page on website",
+    "description": "",
+    "id": "navigate-to-the-main-article-page-on-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/NavigateToMainArticle.feature",
+    "tags": [
+      {
+        "name": "@NavigateToMainArticleWebPage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
